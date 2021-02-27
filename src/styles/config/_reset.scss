@@ -1,0 +1,21 @@
+/*  init
+*   储存初始化样式
+*
+*/
+@import './_var.scss';
+
+html{
+    font-size: $font-size-root !important;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: .12rem;
+}
+
+
+.main-con {
+    padding: 0 .15rem;
+    color: $black-light-5;
+}

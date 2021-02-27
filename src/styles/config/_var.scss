@@ -1,0 +1,49 @@
+
+/*
+   储存所有sass变量  字体 && 颜色
+*/
+$font-size-root: calc(100vmin/750*100); //  单位基数
+
+//@  基本色颜色
+
+$white:#fff;
+$white-light-1: rgba(255,255,255,0.1);
+$white-light-2: rgba(255,255,255,0.2);
+$white-light-3: rgba(255,255,255,0.3);
+$white-light-4: rgba(255,255,255,0.4);
+$white-light-5: rgba(255,255,255,0.5);
+$white-light-6: rgba(255,255,255,0.6);
+$white-light-7: rgba(255,255,255,0.7);
+$white-light-8: rgba(255,255,255,0.8);
+$white-light-9: rgba(255,255,255,0.9);
+
+$black:#000;
+$black-light-1: rgba(0,0,0,0.1);
+$black-light-2: rgba(0,0,0,0.2);
+$black-light-3: rgba(0,0,0,0.3);
+$black-light-4: rgba(0,0,0,0.4);
+$black-light-5: rgba(0,0,0,0.5);
+$black-light-6: rgba(0,0,0,0.6);
+$black-light-7: rgba(0,0,0,0.7);
+$black-light-8: rgba(0,0,0,0.8);
+$black-light-9: rgba(0,0,0,0.9);
+
+
+//@  字体颜色
+
+$text-color: #000     !default;
+
+
+//@ 背景颜色
+
+$color-bg-main: #f2f2f2;
+$color-cyan: cyan;
+$color-bg-1:#ffcd5c;
+$color-bg-2:#ff5a99;
+
+// @边框色
+
+$color-border-ddd: #ddd   !default;
+
+
+

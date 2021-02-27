@@ -1,0 +1,7 @@
+
+
+
+// 导出所有变量及mixins已经在main.js全局引入可以在项目中任何地方直接使用
+
+@import './config/_var.scss';
+@import './mixins/ellipsis.scss';

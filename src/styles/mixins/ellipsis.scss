@@ -1,0 +1,15 @@
+
+
+@mixin text-ellipsis($colum) {
+    @if $colum == 1 {
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    } @else {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: $colum;
+        overflow: hidden;
+        word-break: break-all;
+    }
+}
